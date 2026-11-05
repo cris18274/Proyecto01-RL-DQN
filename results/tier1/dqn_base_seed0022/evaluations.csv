@@ -1,0 +1,11 @@
+environment,algorithm,variant,seed,env_steps,phase,n_episodes,mean_return,std_return,evaluation_env_steps,elapsed_wall_seconds
+CartPole-v1,dqn,dqn_base,22,0,checkpoint,10,22.0,3.4641016151377544,220,0.026
+CartPole-v1,dqn,dqn_base,22,10000,checkpoint,10,187.0,81.73262642434919,1870,9.192
+CartPole-v1,dqn,dqn_base,22,20000,checkpoint,10,61.0,23.40939982143925,610,19.373
+CartPole-v1,dqn,dqn_base,22,30000,checkpoint,10,113.3,2.7100635498903793,1133,30.391
+CartPole-v1,dqn,dqn_base,22,40000,checkpoint,10,110.7,57.740896348351846,1107,41.486
+CartPole-v1,dqn,dqn_base,22,50000,checkpoint,10,94.6,2.5473297566057065,946,53.043
+CartPole-v1,dqn,dqn_base,22,60000,checkpoint,10,99.0,19.333333333333332,990,65.258
+CartPole-v1,dqn,dqn_base,22,70000,checkpoint,10,102.5,2.1213203435596424,1025,116.27
+CartPole-v1,dqn,dqn_base,22,80000,checkpoint,10,118.9,22.273302404448245,1189,139.855
+CartPole-v1,dqn,dqn_base,22,80000,final_holdout,100,118.49,19.588955350328707,11849,142.292

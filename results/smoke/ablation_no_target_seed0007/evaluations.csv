@@ -1,0 +1,5 @@
+environment,algorithm,variant,seed,env_steps,phase,n_episodes,mean_return,std_return,evaluation_env_steps,elapsed_wall_seconds
+Acrobot-v1,dqn,ablation_no_target,7,0,checkpoint,2,-500.0,0.0,1000,0.337
+Acrobot-v1,dqn,ablation_no_target,7,160,checkpoint,2,-500.0,0.0,1000,0.807
+Acrobot-v1,dqn,ablation_no_target,7,320,checkpoint,2,-308.0,271.5290039756342,617,1.346
+Acrobot-v1,dqn,ablation_no_target,7,320,final_holdout,5,-500.0,0.0,2500,2.356

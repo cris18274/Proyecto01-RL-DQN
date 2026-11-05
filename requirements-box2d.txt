@@ -1,0 +1,3 @@
+-r requirements.txt
+# Only if choosing LunarLander-v3 instead of Acrobot-v1.
+gymnasium[box2d]>=1.0,<2

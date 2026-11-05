@@ -1,0 +1,51 @@
+{
+  "environment": "CartPole-v1",
+  "config_name": "tab_bins6",
+  "seed": 11,
+  "steps": 200000,
+  "eval_every": 10000,
+  "checkpoint_eval_episodes": 10,
+  "final_holdout_eval_episodes": 100,
+  "epsilon": {
+    "start": 1.0,
+    "end": 0.05,
+    "decay_fraction": 0.7
+  },
+  "agent": {
+    "algo": "tabular",
+    "bins": 6,
+    "alpha": 0.15,
+    "gamma": 0.99,
+    "clip_ranges": [
+      [
+        -2.4,
+        2.4
+      ],
+      [
+        -3.0,
+        3.0
+      ],
+      [
+        -0.20943951,
+        0.20943951
+      ],
+      [
+        -3.5,
+        3.5
+      ]
+    ]
+  },
+  "machine": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "cpu_count": 12,
+    "pytorch_threads": 1,
+    "packages": {
+      "gymnasium": "1.4.0",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

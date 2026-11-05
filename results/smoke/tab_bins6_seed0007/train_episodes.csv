@@ -1,0 +1,17 @@
+environment,algorithm,variant,seed,episode,env_steps,episode_length,train_return,epsilon,last_loss
+CartPole-v1,tabular,tab_bins6,7,1,16,16,16.0,0.9363839285714286,nan
+CartPole-v1,tabular,tab_bins6,7,2,29,13,13.0,0.88125,nan
+CartPole-v1,tabular,tab_bins6,7,3,41,12,12.0,0.8303571428571428,nan
+CartPole-v1,tabular,tab_bins6,7,4,51,10,10.0,0.7879464285714286,nan
+CartPole-v1,tabular,tab_bins6,7,5,67,16,16.0,0.7200892857142858,nan
+CartPole-v1,tabular,tab_bins6,7,6,132,65,65.0,0.44441964285714286,nan
+CartPole-v1,tabular,tab_bins6,7,7,141,9,9.0,0.40625,nan
+CartPole-v1,tabular,tab_bins6,7,8,185,44,44.0,0.21964285714285725,nan
+CartPole-v1,tabular,tab_bins6,7,9,195,10,10.0,0.17723214285714284,nan
+CartPole-v1,tabular,tab_bins6,7,10,237,42,42.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,11,248,11,11.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,12,262,14,14.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,13,279,17,17.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,14,289,10,10.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,15,300,11,11.0,0.050000000000000044,nan
+CartPole-v1,tabular,tab_bins6,7,16,312,12,12.0,0.050000000000000044,nan

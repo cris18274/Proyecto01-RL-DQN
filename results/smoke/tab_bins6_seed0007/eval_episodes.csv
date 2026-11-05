@@ -1,0 +1,12 @@
+phase,env_steps,seed,return
+checkpoint,0,1000007,10.0
+checkpoint,0,1000008,10.0
+checkpoint,160,1000007,10.0
+checkpoint,160,1000008,12.0
+checkpoint,320,1000007,14.0
+checkpoint,320,1000008,22.0
+final_holdout,320,2000007,26.0
+final_holdout,320,2000008,23.0
+final_holdout,320,2000009,19.0
+final_holdout,320,2000010,17.0
+final_holdout,320,2000011,8.0

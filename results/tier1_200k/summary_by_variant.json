@@ -1,0 +1,54 @@
+[
+  {
+    "variant": "dqn_base",
+    "environment": "CartPole-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": 92.02,
+    "std_across_seeds": 3.249815379371573,
+    "ci95_low_exploratory": 83.94635948303163,
+    "ci95_high_exploratory": 100.09364051696836,
+    "total_wall_hours_all_seeds": 0.14123944444444445,
+    "threshold_assignment": 475.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "tab_bins10",
+    "environment": "CartPole-v1",
+    "algorithm": "tabular",
+    "n_seeds": 3,
+    "final_mean_across_seeds": 414.6933333333333,
+    "std_across_seeds": 59.47875699216766,
+    "ci95_low_exploratory": 266.9279847541348,
+    "ci95_high_exploratory": 562.4586819125318,
+    "total_wall_hours_all_seeds": 0.0548888888888889,
+    "threshold_assignment": 475.0,
+    "seeds_that_met_threshold": 1
+  },
+  {
+    "variant": "tab_bins20",
+    "environment": "CartPole-v1",
+    "algorithm": "tabular",
+    "n_seeds": 3,
+    "final_mean_across_seeds": 229.46333333333334,
+    "std_across_seeds": 79.62634760764385,
+    "ci95_low_exploratory": 31.644555582458224,
+    "ci95_high_exploratory": 427.28211108420845,
+    "total_wall_hours_all_seeds": 0.03887694444444444,
+    "threshold_assignment": 475.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "tab_bins6",
+    "environment": "CartPole-v1",
+    "algorithm": "tabular",
+    "n_seeds": 3,
+    "final_mean_across_seeds": 168.78333333333333,
+    "std_across_seeds": 13.098310323600266,
+    "ci95_low_exploratory": 136.24270053194212,
+    "ci95_high_exploratory": 201.32396613472454,
+    "total_wall_hours_all_seeds": 0.04648916666666667,
+    "threshold_assignment": 475.0,
+    "seeds_that_met_threshold": 0
+  }
+]

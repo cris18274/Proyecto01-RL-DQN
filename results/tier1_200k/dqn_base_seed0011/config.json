@@ -1,0 +1,43 @@
+{
+  "environment": "CartPole-v1",
+  "config_name": "dqn_base",
+  "seed": 11,
+  "steps": 200000,
+  "eval_every": 10000,
+  "checkpoint_eval_episodes": 10,
+  "final_holdout_eval_episodes": 100,
+  "epsilon": {
+    "start": 1.0,
+    "end": 0.05,
+    "decay_fraction": 0.7
+  },
+  "agent": {
+    "algo": "dqn",
+    "dqn": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "hidden_width": 128,
+      "batch_size": 64,
+      "buffer_capacity": 50000,
+      "learning_starts": 1000,
+      "train_frequency": 4,
+      "target_update_frequency": 1000,
+      "grad_clip_norm": 10.0,
+      "disable_target": false,
+      "double_dqn": false
+    }
+  },
+  "machine": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "cpu_count": 12,
+    "pytorch_threads": 1,
+    "packages": {
+      "gymnasium": "1.4.0",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "matplotlib": "3.11.2"
+    }
+  }
+}

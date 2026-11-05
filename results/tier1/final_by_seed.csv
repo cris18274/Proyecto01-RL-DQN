@@ -1,0 +1,13 @@
+environment,algorithm,variant,seed,train_steps,initial_checkpoint_mean_return,final_holdout_mean_return,final_holdout_std_return,final_holdout_n_episodes,threshold_in_assignment,threshold_met_on_holdout,first_checkpoint_crossing_steps_exploratory,total_evaluation_steps_excluded_from_train_budget,wall_clock_seconds_including_evaluation,model_file
+CartPole-v1,dqn,dqn_base,11,80000,9.5,65.98,24.57393708461027,100,475.0,False,,15690,96.091,policy.pt
+CartPole-v1,dqn,dqn_base,22,80000,22.0,118.49,19.588955350328707,100,475.0,False,,20939,142.429,policy.pt
+CartPole-v1,dqn,dqn_base,33,80000,9.1,89.25,2.4052761869177384,100,475.0,False,,21326,104.844,policy.pt
+CartPole-v1,tabular,tab_bins10,11,80000,9.5,251.89,77.35852450203089,100,475.0,False,,37203,15.299,policy.npz
+CartPole-v1,tabular,tab_bins10,22,80000,9.7,388.02,110.53122233609432,100,475.0,False,,52626,15.687,policy.npz
+CartPole-v1,tabular,tab_bins10,33,80000,9.3,189.51,83.87129329147035,100,475.0,False,,29890,15.004,policy.npz
+CartPole-v1,tabular,tab_bins20,11,80000,9.5,161.11,60.151138766855404,100,475.0,False,,26612,14.909,policy.npz
+CartPole-v1,tabular,tab_bins20,22,80000,9.7,133.93,47.91812356151444,100,475.0,False,,23771,17.033,policy.npz
+CartPole-v1,tabular,tab_bins20,33,80000,9.3,123.05,34.88606998198391,100,475.0,False,,24611,23.88,policy.npz
+CartPole-v1,tabular,tab_bins6,11,80000,9.5,251.78,102.10141324124062,100,475.0,False,,38679,23.658,policy.npz
+CartPole-v1,tabular,tab_bins6,22,80000,9.7,185.72,63.48277106603194,100,475.0,False,,30577,23.311,policy.npz
+CartPole-v1,tabular,tab_bins6,33,80000,9.3,178.45,56.81697978526483,100,475.0,False,,29648,14.313,policy.npz

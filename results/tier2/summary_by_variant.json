@@ -1,0 +1,80 @@
+[
+  {
+    "variant": "ablation_no_target",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -500.0,
+    "std_across_seeds": 0.0,
+    "ci95_low_exploratory": -500.0,
+    "ci95_high_exploratory": -500.0,
+    "total_wall_hours_all_seeds": 0.08952972222222223,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "dqn_base",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -489.47333333333336,
+    "std_across_seeds": 18.232721501008374,
+    "ci95_low_exploratory": -534.76958,
+    "ci95_high_exploratory": -444.1770866666667,
+    "total_wall_hours_all_seeds": 0.11242527777777778,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "lr_0p00025",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -500.0,
+    "std_across_seeds": 0.0,
+    "ci95_low_exploratory": -500.0,
+    "ci95_high_exploratory": -500.0,
+    "total_wall_hours_all_seeds": 0.09131305555555556,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "lr_0p001",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -372.75666666666666,
+    "std_across_seeds": 220.39191825775586,
+    "ci95_low_exploratory": -920.2847300000001,
+    "ci95_high_exploratory": 174.77139666666676,
+    "total_wall_hours_all_seeds": 0.08615916666666666,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 0
+  },
+  {
+    "variant": "target_250",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -88.38666666666667,
+    "std_across_seeds": 5.6932357524814785,
+    "ci95_low_exploratory": -102.53058977554673,
+    "ci95_high_exploratory": -74.24274355778661,
+    "total_wall_hours_all_seeds": 0.08387416666666667,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 3
+  },
+  {
+    "variant": "target_4000",
+    "environment": "Acrobot-v1",
+    "algorithm": "dqn",
+    "n_seeds": 3,
+    "final_mean_across_seeds": -500.0,
+    "std_across_seeds": 0.0,
+    "ci95_low_exploratory": -500.0,
+    "ci95_high_exploratory": -500.0,
+    "total_wall_hours_all_seeds": 0.12362361111111111,
+    "threshold_assignment": -100.0,
+    "seeds_that_met_threshold": 0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "environment": "CartPole-v1",
+  "algorithm": "dqn",
+  "variant": "dqn_base",
+  "seed": 7,
+  "train_steps": 320,
+  "initial_checkpoint_mean_return": 10.0,
+  "final_holdout_mean_return": 9.8,
+  "final_holdout_std_return": 0.4472135954999579,
+  "final_holdout_n_episodes": 5,
+  "threshold_in_assignment": 475.0,
+  "threshold_met_on_holdout": false,
+  "first_checkpoint_crossing_steps_exploratory": null,
+  "total_evaluation_steps_excluded_from_train_budget": 109,
+  "wall_clock_seconds_including_evaluation": 0.544,
+  "model_file": "policy.pt"
+}

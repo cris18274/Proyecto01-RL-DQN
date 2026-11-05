@@ -1,0 +1,13 @@
+environment,algorithm,variant,seed,env_steps,phase,n_episodes,mean_return,std_return,evaluation_env_steps,elapsed_wall_seconds
+Acrobot-v1,dqn,dqn_base,11,0,checkpoint,10,-500.0,0.0,5000,1.694
+Acrobot-v1,dqn,dqn_base,11,10000,checkpoint,10,-500.0,0.0,5000,16.969
+Acrobot-v1,dqn,dqn_base,11,20000,checkpoint,10,-200.8,34.73646818866625,2018,43.211
+Acrobot-v1,dqn,dqn_base,11,30000,checkpoint,10,-500.0,0.0,5000,59.633
+Acrobot-v1,dqn,dqn_base,11,40000,checkpoint,10,-500.0,0.0,5000,79.84
+Acrobot-v1,dqn,dqn_base,11,50000,checkpoint,10,-500.0,0.0,5000,89.178
+Acrobot-v1,dqn,dqn_base,11,60000,checkpoint,10,-500.0,0.0,5000,100.189
+Acrobot-v1,dqn,dqn_base,11,70000,checkpoint,10,-500.0,0.0,5000,111.662
+Acrobot-v1,dqn,dqn_base,11,80000,checkpoint,10,-500.0,0.0,5000,122.831
+Acrobot-v1,dqn,dqn_base,11,90000,checkpoint,10,-462.1,119.85032332038159,4622,134.921
+Acrobot-v1,dqn,dqn_base,11,100000,checkpoint,10,-500.0,0.0,5000,145.071
+Acrobot-v1,dqn,dqn_base,11,100000,final_holdout,100,-500.0,0.0,50000,159.127

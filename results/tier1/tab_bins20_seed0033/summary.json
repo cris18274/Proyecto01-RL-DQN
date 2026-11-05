@@ -1,0 +1,17 @@
+{
+  "environment": "CartPole-v1",
+  "algorithm": "tabular",
+  "variant": "tab_bins20",
+  "seed": 33,
+  "train_steps": 80000,
+  "initial_checkpoint_mean_return": 9.3,
+  "final_holdout_mean_return": 123.05,
+  "final_holdout_std_return": 34.88606998198391,
+  "final_holdout_n_episodes": 100,
+  "threshold_in_assignment": 475.0,
+  "threshold_met_on_holdout": false,
+  "first_checkpoint_crossing_steps_exploratory": null,
+  "total_evaluation_steps_excluded_from_train_budget": 24611,
+  "wall_clock_seconds_including_evaluation": 23.88,
+  "model_file": "policy.npz"
+}

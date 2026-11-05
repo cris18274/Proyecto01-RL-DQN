@@ -1,0 +1,5 @@
+environment,algorithm,variant,seed,env_steps,phase,n_episodes,mean_return,std_return,evaluation_env_steps,elapsed_wall_seconds
+CartPole-v1,tabular,tab_bins6,7,0,checkpoint,2,10.0,0.0,20,0.002
+CartPole-v1,tabular,tab_bins6,7,160,checkpoint,2,11.0,1.4142135623730951,22,0.043
+CartPole-v1,tabular,tab_bins6,7,320,checkpoint,2,18.0,5.656854249492381,36,0.081
+CartPole-v1,tabular,tab_bins6,7,320,final_holdout,5,18.6,6.877499545619759,93,0.089

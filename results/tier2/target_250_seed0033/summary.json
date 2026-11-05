@@ -1,0 +1,17 @@
+{
+  "environment": "Acrobot-v1",
+  "algorithm": "dqn",
+  "variant": "target_250",
+  "seed": 33,
+  "train_steps": 100000,
+  "initial_checkpoint_mean_return": -500.0,
+  "final_holdout_mean_return": -82.42,
+  "final_holdout_std_return": 24.10632173258184,
+  "final_holdout_n_episodes": 100,
+  "threshold_in_assignment": -100.0,
+  "threshold_met_on_holdout": true,
+  "first_checkpoint_crossing_steps_exploratory": 20000,
+  "total_evaluation_steps_excluded_from_train_budget": 26475,
+  "wall_clock_seconds_including_evaluation": 84.581,
+  "model_file": "policy.pt"
+}

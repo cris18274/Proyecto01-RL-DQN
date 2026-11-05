@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.vscode/
+*.log
+results/live_smoke_*/
+results/live_demo*/
+report/figures_reproduced/
+# Keep report, scientific results, weights and GIFs versioned for this assignment.
