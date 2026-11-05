@@ -2,9 +2,7 @@
 
 **Código experimental desde cero (Python + PyTorch) / Defensa de Agentes Inteligentes**
 
-> **ACTUALIZACIÓN DE ENTREGA (05/11/2026):** este repositorio ahora SÍ incluye los resultados reales auditados de **42 entrenamientos** (Tier1 80k, Tier1 200k, Tier2), **5.16 millones de pasos de entrenamiento**, CSV, pesos, figuras y **cuatro GIF**. Incluye también `report/Paper_RL_DQN_Revisado.pdf` y `slides/Defensa_RL_DQN_Resultados_Reales.pptx`. La sección siguiente documenta el protocolo reproducible de entrenamiento y evaluación. Ver `RESULTADOS_VERIFICADOS.md`, `docs/AUDITORIA_RUBRICA.md` y `docs/GITHUB_PUBLICACION.md` para el estado final.
-
-**Publicación:** `git init` y `git push` todavía deben ejecutarse desde la cuenta del estudiante. Enlace remoto aún por completar. **Campos pendientes en el paper:** nombre y correo del autor, URL real del repositorio y validación de prompts registrados. No uses el ZIP de 249 MB con `.venv` para publicar.
+> **ACTUALIZACIÓN DE ENTREGA (05/11/2026):** este repositorio ahora SÍ incluye los resultados reales auditados de **42 entrenamientos** (Tier1 80k, Tier1 200k, Tier2), **5.16 millones de pasos de entrenamiento**, CSV, pesos, figuras y **cuatro GIF**. Incluye también `report/Paper_RL_DQN_Revisado.pdf`.
 
 El proyecto implementa exactamente el núcleo obligatorio de la consigna recibida:
 
@@ -19,7 +17,7 @@ El proyecto implementa exactamente el núcleo obligatorio de la consigna recibid
 
 Los entrenamientos ya fueron ejecutados y sus resultados están incluidos en `results/tier1`, `results/tier1_200k` y `results/tier2`. **No vuelvas a ejecutar** los scripts `03_tier1.ps1` o `04_tier2.ps1` sobre las mismas rutas sin un plan: el CLI detectará carpetas existentes y emitirá `FileExistsError` para no sobrescribir evidencia. Para reproducir entrenamientos en carpetas nuevas usa `--out results/reproduccion_tier1_80k` o `--out results/reproduccion_tier2_100k`. Para regenerar las figuras sin volver a entrenar, usa los comandos `analyze` de la Sección 4.
 
-El manuscrito revisado está en `report/` y las 24 diapositivas en `slides/`. Revisa `docs/AUDITORIA_RUBRICA.md` para el alcance de las afirmaciones y `docs/PENDIENTES_EDITORIALES.md` antes de entregar.
+El manuscrito revisado está en `report/` y las 24 diapositivas en `slides/`.
 
 ## 1. Iniciar en Windows PowerShell
 
