@@ -189,12 +189,6 @@ El final de episodio `truncated=True` por límite de tiempo **no equivale** a un
 - Es una implementación para aprendizaje y defensa oral, no una afirmación de estado del arte. No se aplica ajuste extensivo de hiperparámetros oculto ni se selecciona a posteriori un modelo favorable sin reportarlo.
 - La consigna obliga a declarar el uso de IA y los prompts principales. Encontrarás un modelo para adaptar en `docs/DECLARACION_IA.md`.
 
-Revisa además:
-
-- `docs/DEFENSA_DEL_CODIGO.md`: preguntas con respuestas y cambios en vivo.
-- `docs/ANALISIS_SOLO.md`: guía razonada para la sección obligatoria de ambientes no adecuados.
-- `docs/PLANTILLA_ARTICULO.md`: estructura de 6–8 páginas sin resultados inventados.
-
 ### Documentación externa útil
 
 - Gymnasium — [uso de reset, step y seeding](https://gymnasium.farama.org/introduction/basic_usage/)
